@@ -1,0 +1,26 @@
+{
+  "name": "japp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juni",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.618.0",
+    "cheerio": "^1.0.0-rc.3",
+    "core-util-is": "^1.0.2",
+    "crawler": "^1.2.1",
+    "dynamodb": "^1.2.1",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "generate-safe-id": "^1.0.3",
+    "headless-chrome-crawler": "^1.8.0",
+    "puppeteer": "^2.1.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "uuid": "^3.4.0"
+  }
+}
