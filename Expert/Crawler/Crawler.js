@@ -42,6 +42,8 @@ const details = [];
       xmlMode: true
     });
 
+    
+
 
     const links = await $('#skywalker_header_multiline .col-sm-12.livello2').map((i, categories) => {
       const $category = $(categories).find('a').attr('href');
